@@ -7,7 +7,7 @@ from image import ImageUtilityGUI  # Import the ImageUtilityGUI from image.py
 from excel import ExcelUtilityApp  # Import the EnhancedExcelUtilityApp from excel.py
 import webbrowser  # Import webbrowser to open links
 from PIL import Image, ImageTk
-from Aexcel import EnhancedExcelUtilityApp  # Import the ExcelUtilityApp for advanced utility
+from aexcel import EnhancedExcelUtilityApp  # Import the ExcelUtilityApp for advanced utility
 
 class MainApp:
     def __init__(self, master):
